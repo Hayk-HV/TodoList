@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {+
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Title {
+  text-align: center;
+  font-size: 100px;
+  color: lightblue;
+}
+
+.Input {
+  height: 20px;
+  background: transparent;
+  background: rgba(0,0,0,0);
+  -webkit-appearance: none;
+  border: hidden;
+  outline: 0;
+}
+
+.AllItems {
+  font-size: 10px;
+}
+
+.DeleteButton {
+  font-size: 10px;
+  color: red;
+  cursor: pointer;
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+}
+
+.FilterStyle {
+  font-size: 10px;
+  color: grey;
+  cursor: pointer;
+  border: 1px solid;
+  margin: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  border-color: red;
+}
+
+.FilterShow {
+  font-size: 11px;
+  color: grey;
+}
+
+.InputBut .Input {
+  text-align: left;
+  width: 200px;
+  height: 25px;
+  border: 1px solid;
+  border-color: lightgrey;
+}
+
+.IDontNow {
+  display: flex;
+  justify-content: left;
+  width: 231px;
+  height: 25px;
+  border: 1px solid;
+  border-color: lightgrey;
+  border-top: none;
+}
+
+.Aaa {
+    display: flex;
+    justify-content: center;
+}
+
+.AddButton {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+  cursor: pointer;
+  border-color: lightgrey;
+  
+}
